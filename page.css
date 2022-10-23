@@ -1,0 +1,69 @@
+
+
+section{
+
+    padding: 20px 10px;
+background-color: #ddd;
+}
+
+section .container{
+    
+    padding: 10px 20px;
+    width: 50%;
+background-color: #fff;
+margin-left: auto;
+margin-right: auto;
+}
+
+span{
+   position: relative; 
+}
+span::before{
+content: 'لم تبدأ';
+position: absolute;
+width: 30px;
+padding: 1px 15px;
+background-color:greenyellow;
+color: #000;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+section .card{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-bottom: 30px;
+;
+}
+.content h3 {
+
+    opacity: 0.4;
+}
+/* button */
+.btn{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+ margin-top: 30px;
+ margin-bottom: 30px;
+    
+}
+
+.btn a{
+border: 1px solid greenyellow ;
+text-decoration: none;
+padding: 10px 30px;
+background-color:greenyellow;
+color: #fff;
+}
+.btn a:hover{
+background-color: transparent;
+color: #000;
+transform: scale(1.1);
+}
+

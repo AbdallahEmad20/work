@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+header{
+
+     position: fixed;
+     top:0;
+     z-index: 1;
+     width: 100%;
+    background-color:midnightblue;
+    padding: 10px 20px;
+    color: #fff;
+}
+header .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .content a{
+    padding: 10px 20px;
+    color: #3F1052;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+header .content a:hover{
+transform: scale(1.1);
+}
+
+
+/* section table */
+
+section{
+background-color:ghostwhite;
+
+
+}
+
+section .container{
+
+    padding: 30px 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+
+ margin-top: 161px;
+ box-shadow:5px 5px 25px rgb(218, 218, 218);
+
+}
+
+/* تنظيم الجدول */
+section .container td:first-child{
+display: flex;
+align-items: center;
+
+
+}
+section .container tr td:not(:first-child)  {
+text-align: center;
+
+}
+
+
+
+/* لتنظيم الصوره داخل العمود  */
+
+.image{
+margin-top: 5px;
+margin-right: 10px;
+margin-left: 5px;
+}
+
+
+.main{
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flag{
+    margin-left: 30px;
+}

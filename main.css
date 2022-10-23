@@ -1,0 +1,107 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+/* Start header */
+header{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+background:linear-gradient(#222,#444);
+padding: 5px 10px;
+
+color: #444;
+}
+
+header .container{
+    padding: 0 50px;
+    display: flex;
+justify-content: space-between;
+align-items: center;    
+}
+
+header  nav ul{
+    display: flex;
+}
+header  nav ul li{
+list-style-type: none;
+}
+header  nav ul li a{
+color: #fff;
+font-size: 20px;
+font-weight: 300;
+padding: 0 15px;
+text-decoration: none;
+}
+
+header  nav ul li a:hover{
+text-decoration: underline;
+color: crimson;
+}
+
+/* End header */
+ 
+
+/* Start landing */
+.landing{
+    position: relative;
+    background-image: url("stadium-g814f9a768_1920.jpg"); 
+    height: calc(100vh + 76px);
+    background-size: cover;
+ 
+        
+
+}
+.landing .content{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -40% , -50%);
+  }
+
+.landing  .content  h1{
+color: crimson;
+font-size: 70px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.landing  .content  p{
+ color: #fff;
+ font-size: 40px;
+ font-weight: 500;
+ transform: translatex(-50px);
+}
+
+
+input[type="text"]{
+    width: 100%;
+padding: 10px 0;
+position: relative;
+
+
+}
+
+.landing .content .search{
+    display: flex;
+}
+input[type="submit"]{
+    background-color: crimson;
+    width: 100px;
+    border-color: transparent;
+    position: absolute;
+    right: 0;
+    height: 40px;
+
+}
+
+
+
+
+/* End landing */
